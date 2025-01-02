@@ -1063,7 +1063,7 @@ function getConfig(userIDs, hostName, proxyIP) {
 
 	const htmlHead = ` 
   <head>
-    <title>EDtunnel: Configuration</title> 
+    <title>id.dinodino.my.id</title> 
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta property='og:site_name' content='EDtunnel: Protocol Configuration' />
     <meta property='og:type' content='website' />
