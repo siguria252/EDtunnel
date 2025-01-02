@@ -1059,12 +1059,13 @@ function getConfig(userIDs, hostName, proxyIP) {
 	const sublink = `https://${hostName}/sub/${userIDArray[0]}?format=clash`
 	const subbestip = `https://${hostName}/bestip/${userIDArray[0]}`;
 	const clash_link = `https://url.v1.mk/sub?target=clash&url=${encodeURIComponent(`https://${hostName}/sub/${userIDArray[0]}?format=clash`)}&insert=false&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
-	// HTML Head with CSS and FontAwesome library
-	const htmlHead = `
+	// HTML Head with CSS and FontAwesome library 
+	// Ubah Tampilan biar hilang iklan
+	const htmlHead = ` 
   <head>
-    <title>EDtunnel: Configuration</title>
+    <title>EDtunnel: Configuration</title> 
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <meta property='og:site_name' content='EDtunnel: Protocol Configuration' />
+    <meta property='og:site_name' content='Vless CF' />
     <meta property='og:type' content='website' />
     <meta property='og:title' content='EDtunnel - Protocol Configuration and Subscribe Output' />
     <meta property='og:description' content='Use Cloudflare Pages and Worker serverless to implement protocol' />
