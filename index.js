@@ -16,7 +16,7 @@ let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
  * Array of proxy server addresses with ports
  * Format: ['hostname:port', 'hostname:port']
  */
-const proxyIPs = ['43.218.77.16'];
+const proxyIPs = ['45.76.179.81'];
 
 // Randomly select a proxy server from the pool
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
@@ -1063,7 +1063,7 @@ function getConfig(userIDs, hostName, proxyIP) {
 
 	const htmlHead = ` 
   <head>
-    <title>id.dinodino.my.id</title> 
+    <title>Vless CF</title> 
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta property='og:site_name' content='EDtunnel: Protocol Configuration' />
     <meta property='og:type' content='website' />
